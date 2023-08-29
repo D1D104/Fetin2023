@@ -30,7 +30,6 @@ void loop()
     if(tag != aux){
     //Serial.println(tag);
     espSerial.print(tag);
-    aux= tag;
     }
   }
  tag= "";
